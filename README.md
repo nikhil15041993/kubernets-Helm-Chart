@@ -70,3 +70,58 @@ springboot
 └── values.yaml
 ```
 In the next section we will go through each YAML configuration
+
+### Chart.yaml
+This file contains all the metadata about our Helm Chart for example -
+
+```
+apiVersion: v2 #mandatory
+name: springboot #mandatory
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0 #mandatory
+appVersion: 1.16.0
+```
+1 apiVersion
+2 name
+3 version
+Other configurations are optional
+
+Versioning - Each chart should has its own version number and it should follow the Semantic Versioning
+
+### values.yaml
+ 
+This configuration file holds values for the configuration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://jhooq.com/building-first-helm-chart-with-spring-boot/
